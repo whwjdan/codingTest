@@ -1,0 +1,6 @@
+words = input().upper()
+print(words)
+wordsList = list(words)
+print(wordsList)
+setList = list(set(words))
+print("setList %s" % setList)
